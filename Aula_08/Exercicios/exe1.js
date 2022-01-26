@@ -3,7 +3,7 @@ var prompt = require('prompt-sync')();
 const linhas = +prompt("quantas linhas deseja? ");
 const colunas = +prompt("quantas colunas deseja? ");
 
-var matriz = [];
+const matriz = [];
 
 for(let l=0 ; l < linhas; l++){
     const cols = []; 
@@ -13,4 +13,4 @@ for(let l=0 ; l < linhas; l++){
     matriz[l] = cols;
 }
 
-console.log(matriz);
+console.table(matriz);

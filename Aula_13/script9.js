@@ -9,7 +9,11 @@ function Pessoa(nome, idade, sexo) {
 let pessoa = new Pessoa("leo",24,'M');
 lista.push(pessoa);
 
+console.log(pessoa);
+
 pessoa = new Pessoa("duda",15,'F');
 lista.push(pessoa);
+
+console.log(pessoa);
 
 console.log(lista);
